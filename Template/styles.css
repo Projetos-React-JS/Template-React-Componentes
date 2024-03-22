@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  
+  .mainInfo{
+    min-height: calc(100vh - 200px);
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #2980b9;
+    color: white;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header h1{
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  #info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .personal-info, .skills {
+    flex: 1;
+  }
+  
+  .skill-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #contact{
+    text-align: center;
+  }
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact form input,
+  #contact form textarea{
+    margin: 10px 100px;
+    width: 50%;
+    padding: 10px;
+  }
+  #contact form button {
+    width: 10%;
+    border-radius: 30px;
+    border: none;
+    background-color:#2980b9 ;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #2980b9;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 50px;
+  }
